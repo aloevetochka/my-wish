@@ -1,10 +1,14 @@
 @use '../styles/main';
 @use '../styles/mixins' as m;
+@use '../styles/variables' as v;
+@use '../styles/typography' as t;
 
 .app {
   min-height: 100vh;
+  background-color: v.$bgc;
+  color: t.$tc-main;
 
-  @include m.mb-up(sm) {
+  @include m.mb(xs) {
     display: flex;
   }
 }

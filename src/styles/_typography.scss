@@ -1,12 +1,20 @@
-$ff-main: 'Roboto', sans-serif;
+//font-family
+$ff-main: 'Raleway', sans-serif;
+$ff-logo: 'Ubuntu', sans-serif;
 
-$fz-main: 16px;
-$fz-text: 11px;
-$fz-title: 12px;
-$fz-heading: 14px;
+//font-size
+$fz-reg-title: 64px;
+$fz-title: 48px;
+$fz-logo: 40px;
+$fz-subtitle: 32px;
+$fz-main: 20px;
+$fz-input: 16px;
 
+//font-weight
+$fw-light: 300;
 $fw-regular: 400;
 $fw-bold: 700;
 
-$tc-main: #000;
-$tc-second: #a3a3a3;
+//text-color
+$tc-main: #ffffff;
+$tc-hover: #01509a;
