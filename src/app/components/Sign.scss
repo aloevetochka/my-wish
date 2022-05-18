@@ -1,0 +1,24 @@
+@use '../../styles/typography' as t;
+@use '../../styles/variables' as v;
+
+.sign_in,
+.sign_up {
+  height: 100vh;
+}
+
+.sign_container {
+  margin-top: 70px;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title {
+  font-family: t.$ff-logo;
+  font-weight: t.$fw-bold;
+  font-size: t.$fz-reg-title;
+}
+.subtitle {
+  margin-bottom: 60px;
+}
