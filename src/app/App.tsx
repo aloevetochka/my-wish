@@ -1,9 +1,16 @@
 import React from 'react';
 
 import './App.scss';
+import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
 
 function App() {
-  return <h1>Page title</h1>;
+  return (
+    <div>
+      <SignUp />
+      <SignIn />
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,41 @@
+@use '../../styles/typography' as t;
+@use '../../styles/variables' as v;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  input,
+  button {
+    height: 56px;
+    border-radius: 30px;
+    border: 2px solid v.$bgc;
+  }
+  input {
+    padding-left: 23px;
+    margin-bottom: 20px;
+
+    background-color: rgb(255, 255, 255, 0.3);
+    outline: none;
+
+    &:focus::placeholder {
+      opacity: 0;
+    }
+  }
+  input,
+  input::placeholder,
+  input:focus,
+  button {
+    font-family: t.$ff-main;
+    color: t.$tc-main;
+    font-size: t.$fz-input;
+  }
+  button {
+    background-color: v.$c-accent;
+    font-size: t.$fz-main;
+  }
+  input:hover,
+  button:hover {
+    border: 2px solid v.$bc;
+    background-color: v.$bgc;
+  }
+}
